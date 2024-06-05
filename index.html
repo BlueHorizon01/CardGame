@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardGame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Card Game</h1>
+        <div class="cards">
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                    </div>
+                    <div class="card-back">
+                        <img src="BirthImage.png">
+                        <p class="card-text card-text-1">Birth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                    </div>
+                    <div class="card-back">
+                        <img src="LifeImage.png">
+                        <p class="card-text card-text-2">Life</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                    </div>
+                    <div class="card-back">
+                        <img src="DeathImage.png">
+                        <p class="card-text card-text-3">Death</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <p class="left-info">05/06/2024</p>
+            <p class="credit">by Tavi</p>
+            <p class="right-info">Score: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
